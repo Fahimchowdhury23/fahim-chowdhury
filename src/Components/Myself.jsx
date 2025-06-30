@@ -1,6 +1,6 @@
 import React from "react";
 import TrueFocus from "./TrueFocus";
-import { FaGithub } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 
 const Myself = () => {
@@ -36,22 +36,29 @@ const Myself = () => {
         thrive at the intersection of art and technology.
       </p>
 
-      <div className="flex gap-3 items-center pt-4">
+      <div className="flex flex-col md:flex-row gap-2 md:gap-3 items-start md:items-center pt-4">
         <a target="blank" href="https://github.com/Fahimchowdhury23">
-          <button className="px-5 hover:bg-black hover:text-white transition-all cursor-pointer duration-300 py-2 border-1 rounded-full">
-            GitHub
+          <button className="px-3 flex items-center gap-1  hover:bg-black hover:text-white transition-all cursor-pointer duration-300 py-2 border-1 rounded-full">
+            <FaGithub size={20} /> GitHub
           </button>
         </a>
+
+        <a target="blank" href="discordapp.com/users/879041544181649500">
+          <button className="px-3 hover:bg-black hover:text-white flex items-center gap-1 transition-all cursor-pointer duration-300 py-2 border-1 rounded-full">
+            <FaDiscord size={20} /> Discord
+          </button>
+        </a>
+
         <a
           target="blank"
           href="https://www.linkedin.com/in/fahim-chowdhury-369933368/"
         >
-          <button className="px-4 hover:bg-black hover:text-white transition-all cursor-pointer duration-300 py-2 border-1 rounded-full">
-            LinkedIn
+          <button className="px-3 hover:bg-black flex items-center gap-1 hover:text-white transition-all cursor-pointer duration-300 py-2 border-1 rounded-full">
+            <FaLinkedin size={20} /> LinkedIn
           </button>
         </a>
         <a target="blank" href="">
-          <button className="px-4 flex items-center gap-2 hover:bg-black hover:text-white transition-all cursor-pointer duration-300 py-2 border-1 rounded-full">
+          <button className="px-3 flex items-center gap-1 hover:bg-black hover:text-white transition-all cursor-pointer duration-300 py-2 border-1 rounded-full">
             <MdOutlineFileDownload size={20} /> Resume
           </button>
         </a>
