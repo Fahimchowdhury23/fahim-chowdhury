@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/B2J1nL7G/Recipe-Book.png",
+    "video": "./recipeBook.mp4",
+    "title": "Recipe Book",
+    "about": "Developed a user-friendly, interactive platform for food lovers to collect, curate, and explore recipes, simplifying and inspiring meal planning.",
+    "timeline": "June 2025",
+    "description": "Recipe Book began as a simple idea: what if managing your favorite recipes felt as smooth and inspiring as cooking itself? Tired of scattered notes and forgotten dishes, I built a space where users can create, edit, and update their own recipes — and just as easily discover new ones from others. With Firebase handling authentication, users can seamlessly log in to access their personal dashboard, view all their added recipes and see how many likes each one has received through interactive charts. Designed to be fast, responsive, and intuitive, Recipe Book isn't just a recipe manager — it's a social cookbook made for modern home cooks.",
+    "tech": [
+      "React",
+      "React Router",
+      "Firebase",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "website": "https://recipe-book-23.web.app/",
+    "source": "https://github.com/Fahimchowdhury23/recipe-book-client",
+    "challenges": [
+      "Making the app responsive across all devices.",
+      "Managing CRUD operations in my first full-stack project.",
+      "Maintaining consistent design throughout the website."
+    ],
+    "improvements": [
+      "Dashboard integration is incomplete and needs improvement.",
+      "Some text is not visible in dark mode and needs better styling.",
+      "The like functionality currently allows unlimited likes, which needs to be controlled."
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/Q3jcGkRq/Libra-Flow.png",
+    "video": "./libraFlow.mp4",
+    "title": "LibraFlow",
+    "about": "Created a Library Management System - A web app for organizing, updating, and tracking books with real-time borrow/return management and a user-friendly interface for efficient library operations.",
+    "timeline": "June 2025 - July 2025",
+    "description": "LibraFlow began as a solution to a common problem in our school library—long queues, misplaced records, and the challenge of tracking borrowed books manually. Inspired by our librarian's struggle and the need for a more efficient system, we set out to create a web-based Library Management System tailored for schools. LibraFlow makes it easy to categorize books, track borrow/return activity in real time, and update records through a clean, user-friendly interface. What started as a simple idea has grown into a smart tool that simplifies library operations for both staff and students.",
+    "tech": [
+      "React",
+      "React Router",
+      "Firebase",
+      "JWT",
+      "Axios",
+      "Express",
+      "MongoDB",
+      "Motion",
+      "TailwindCSS"
+    ],
+    "website": "https://library-management-system-23.web.app/",
+    "source": "https://github.com/Fahimchowdhury23/library-management-system-client",
+    "challenges": [
+      "Managing Firebase JWT authentication using a custom Axios hook to securely handle and attach tokens.",
+      "Implementing a borrow limit of 3 books per student required real-time tracking and handling edge cases."
+    ],
+    "improvements": [
+      "Implementation of Dashboard.",
+      "Dark mode needs to be implemented correctly."
+    ]
+  }
+]

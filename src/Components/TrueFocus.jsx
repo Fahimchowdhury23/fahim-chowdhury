@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const TrueFocus = ({
   sentence = "Developer Bibliophile",
-  manualMode = false,
+  manualMode = true,
   blurAmount = 4,
   borderColor = "green",
   glowColor = "rgba(0, 255, 0, 0.6)",
@@ -68,7 +68,7 @@ const TrueFocus = ({
           <span
             key={index}
             ref={(el) => (wordRefs.current[index] = el)}
-            className="relative text-xl md:text-2xl font-black cursor-pointer"
+            className="relative text-xl md:text-2xl text-secondary font-black cursor-pointer"
             style={{
               filter: manualMode
                 ? isActive
