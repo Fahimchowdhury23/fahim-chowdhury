@@ -30,7 +30,7 @@ const Myself = () => {
     },
     {
       platform: "Resume",
-      link: "./Resume.pdf",
+      link: "https://drive.google.com/file/d/1PanJ2HcmK7b6rXjw_l9qy8WPHaDMbFtr/view?usp=sharing",
       icon: <MdOutlineFileDownload size={20} />,
     },
   ];
@@ -77,12 +77,7 @@ const Myself = () => {
 
           <div className="grid grid-cols-2 md:flex md:flex-row gap-y-2 gap-x-20 md:gap-3 items-start md:items-center pt-4">
             {socials.map((social, index) => (
-              <a
-                key={index}
-                target="blank"
-                href={social.link}
-                download={index === 3 && "Fahim Chowdhury Resume.pdf"}
-              >
+              <a key={index} target="blank" href={social.link}>
                 <button className="px-2 py-1 flex items-center gap-1 hover:bg-secondary hover:text-primary transition-all cursor-pointer duration-300 border-1 rounded-full">
                   {social.icon} {social.platform}
                 </button>
